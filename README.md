@@ -26,7 +26,15 @@ Pode-se observar a modularidade de cada parte do circuito, podendo fazê-lo a me
 
 Abaixo, serão dispostos os componentes cujo layout já foram feitos.
 
+- LNA: TQP3M9019
+Layout recomendado pelo fabricante:
+![](LNA_datasheet.PNG)
 
+Para frequência de operação na faixa 108 a 137 MHz, foram usados os valores 4.7nF e 100nF para os capacitores e 330pH para o indutor
+![](LNA-sch.PNG)
+
+Após o posiciomentos dos componentes, este ficou o layout do módulo do LNA:
+![](LNA_3d_layout.PNG)
 
 
 
