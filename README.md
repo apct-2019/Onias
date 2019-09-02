@@ -24,10 +24,50 @@ Abaixo um vídeo exemplificando como será a estratégia de desenvolvimento das 
 
 Pode-se observar a modularidade de cada parte do circuito, podendo fazê-lo a medida que os componentes vão sendo selecionados.
 
-Abaixo, serão dispostos os componentes cujo layout já foram feitos.
 
+## Parâmetros das placas e conectores:
+
+***Características da placa:
+
+- 4 camadas;
+- 3 dielétricos;
+- espessura de condutores: 0.14mm;
+- espessura dos dielétricos: 0.635mm;
+- espessura total: 0.795mm
+
+Layer Stack Manager:
+
+![](layer_stack_manager.PNG)
+
+***Conectores:
+
+Os conectores usados são groud-signal-ground (gsg) Jumpers. São feitos de um pequeno pedaço de material de poliamida com traços de cobre desenhados para terem impedância de 50 ohms na direção do sinal. Para fixação, o conector é disposto entre duas placas e duas âncoras de forma que fica fixo em cada placa, assegurando conexão. A conexão foi testada com ótimos resultados com frequências até 67GHz, ou seja, para nossa aplicação o conector é válido. 
+
+Quanto aos seus parâmetros s, duas placas conectadas por um gsg Jumper se comportam como uma única linha de transmissão de mesmo tamanho.
+
+Seu Serial number é: XM-GSGJ-01
+
+![](gsg_jumper.PNG)
+
+%- Deverão ser especificados os parâmetros das linhas de transmissão, tipo de LT utilizado.
+
+## Blocos de circuito:
+
+- atenuador: HMC542
 - LNA: TQP3M9019
+- Gain Block: LMH6881
+- Mixer: ADE-12MH
+- LO: Si4464
+- Chave RF: ADG904BCPZ
+
+## Detalhamento dos componentes:
+
+### Atenuador HMC542
+
+### LNA: TQP3M9019
+
 Layout recomendado pelo fabricante:
+
 ![](LNA_datasheet.PNG)
 
 Para frequência de operação na faixa 108 a 137 MHz, foram usados os valores 4.7nF e 100nF para os capacitores e 330pH para o indutor
@@ -36,7 +76,15 @@ Para frequência de operação na faixa 108 a 137 MHz, foram usados os valores 4
 Após o posiciomentos dos componentes, este ficou o layout do módulo do LNA:
 ![](LNA_3d_layout.PNG)
 
+### Gain Block: LMH6881
 
+Componente foi criado no vault.
+
+### Mixer: ADE-12MH
+
+### LO: Si4464
+
+### Chave RF: ADG904BCPZ
 
 
 
