@@ -1,4 +1,4 @@
-# Layout e componentes de características distribuídas 
+﻿# Layout e componentes de características distribuídas 
 
 O Layout da placa diz respeito ao posicionamento e dimensão das trilhas e componentes que compõe o circuito. É a manifestação física do esquemático da placa.
 
@@ -81,6 +81,16 @@ Após o posiciomentos dos componentes, este ficou o layout do módulo do LNA:
 Componente foi criado no vault.
 
 ### Mixer: ADE-12MH
+
+O mixer foi dado como exemplo para desenvolvimento das demais placas:
+
+Esquemático utilizado:
+
+![](mixer-sch.PNG)
+
+Layout do módulo do Mixer ADE-12MH
+
+![](mixer_3d_layout.PNG)
 
 ### LO: Si4464
 
