@@ -27,7 +27,7 @@ Pode-se observar a modularidade de cada parte do circuito, podendo fazê-lo a me
 
 ## Parâmetros das placas e conectores:
 
-***Características da placa:
+Características da placa:
 
 - 4 camadas;
 - 3 dielétricos;
@@ -39,7 +39,7 @@ Layer Stack Manager:
 
 ![](layer_stack_manager.PNG)
 
-***Conectores:
+Conectores:
 
 Os conectores usados são groud-signal-ground (gsg) Jumpers. São feitos de um pequeno pedaço de material de poliamida com traços de cobre desenhados para terem impedância de 50 ohms na direção do sinal. Para fixação, o conector é disposto entre duas placas e duas âncoras de forma que fica fixo em cada placa, assegurando conexão. A conexão foi testada com ótimos resultados com frequências até 67GHz, ou seja, para nossa aplicação o conector é válido. 
 
@@ -49,7 +49,7 @@ Seu Serial number é: XM-GSGJ-01
 
 ![](gsg_jumper.PNG)
 
-%- Deverão ser especificados os parâmetros das linhas de transmissão, tipo de LT utilizado.
+
 
 ## Blocos de circuito:
 
@@ -63,6 +63,21 @@ Seu Serial number é: XM-GSGJ-01
 ## Detalhamento dos componentes:
 
 ### Atenuador HMC542
+
+Componente foi criado no vault.
+
+Layout e esquemáticos recomendados pelo fabricante: 
+
+![](atenuador_datasheet.PNG)
+![](atenuador_datasheet_ckt.PNG)
+
+Esquemático do atenuador - foram utilizados 470pF ao invés de 330pF por simplicidade no esquemático (o capacitor de 330pF não consta no vault):
+
+![](atenuador_sch.PNG)
+
+Foi escolhido um conector grande demais para os sinais lógicos e VCC. Uma outra proposta é usar test points e soldar fios individuais. Layout da placa:
+
+![](atenuador_3d_layout.PNG) 
 
 ### LNA: TQP3M9019
 
@@ -93,6 +108,7 @@ Layout do módulo do Mixer ADE-12MH
 ![](mixer_3d_layout.PNG)
 
 ### LO: Si4464
+
 
 ### Chave RF: ADG904BCPZ
 
