@@ -79,6 +79,10 @@ Foi escolhido um conector grande demais para os sinais lógicos e VCC. Uma outra
 
 ![](atenuador_3d_layout.PNG) 
 
+update:
+trilhas da pcb em 2d:
+![](ate_pcb2d.PNG)
+
 ### LNA: TQP3M9019
 
 Layout recomendado pelo fabricante:
