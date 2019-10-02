@@ -53,12 +53,16 @@ Seu Serial number é: XM-GSGJ-01
 
 ## Blocos de circuito:
 
-- atenuador: HMC542
-- LNA: TQP3M9019
-- Gain Block: LMH6881
-- Mixer: ADE-12MH
-- LO: Si4464
-- Chave RF: ADG904BCPZ
+- atenuador: HMC542     - layout feito
+- LNA: TQP3M9019        - layout feito
+- Gain Block: MAR-6+    - layout feito
+- Mixer: ADE-12MH       - layout feito 
+- LO: Si4464            - 
+- XTAL: 26MHz           - 
+- Chave RF: ADG904BCPZ  - layout feito
+- Filtro: LTM455/450    - 
+- Conector: SMA         - layout feito
+- Circuito Step-Up	- 
 
 ## Detalhamento dos componentes:
 
@@ -95,9 +99,15 @@ Para frequência de operação na faixa 108 a 137 MHz, foram usados os valores 4
 Após o posiciomentos dos componentes, este ficou o layout do módulo do LNA:
 ![](LNA_3d_layout.PNG)
 
-### Gain Block: LMH6881
+### Gain Block: MAR-6+
 
-Componente foi criado no vault.
+Antes era componente LMH6881 (Componente foi criado no vault.)
+
+O MAR-6+ foi criado no vault e foi feito o sch baseado no circuito similar no X-microwave e datasheet do fabricante.
+
+![](mar6-sch.PNG)
+![](mar6-2d-layout.PNG)
+![](mar6-3d-layout.PNG)
 
 ### Mixer: ADE-12MH
 
@@ -115,6 +125,20 @@ Layout do módulo do Mixer ADE-12MH
 
 
 ### Chave RF: ADG904BCPZ
+
+Componente foi criado no vault. Componente foi feito o sch baseado no circuito similar no X-microwave e datasheet do fabricante.
+
+![](adg-sch.PNG)
+![](adg-2d-layout.PNG)
+![](adg-3d-layout.PNG)
+
+### Conecotr: SMA
+
+Componente usado foi conector SMA.
+
+![](con-sch.PNG)
+![](con-2d-layout.PNG)
+![](con-3d-layout.PNG)
 
 
 
