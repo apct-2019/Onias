@@ -57,12 +57,12 @@ Seu Serial number é: XM-GSGJ-01
 - LNA: TQP3M9019        - layout feito
 - Gain Block: MAR-6+    - layout feito
 - Mixer: ADE-12MH       - layout feito 
-- LO: Si4464            - 
-- XTAL: 26MHz           - 
+- LO: Si4464            - layout feito
+- XTAL: 26MHz           - layout feito
 - Chave RF: ADG904BCPZ  - layout feito
 - Filtro: LTM455/450    - 
 - Conector: SMA         - layout feito
-- Circuito Step-Up	- 
+- Circuito Step-Up	- layout feitos
 
 ## Detalhamento dos componentes:
 
@@ -132,7 +132,7 @@ Componente foi criado no vault. Componente foi feito o sch baseado no circuito s
 ![](adg-2d-layout.PNG)
 ![](adg-3d-layout.PNG)
 
-### Conecotr: SMA
+### Conector: SMA
 
 Componente usado foi conector SMA.
 
@@ -141,7 +141,19 @@ Componente usado foi conector SMA.
 ![](con-3d-layout.PNG)
 
 
+### Local Oscilator: Si4464 com XTAL 26MHz
 
+![](si-sch.PNG)
+![](si-2d-layout.PNG)
+![](si-3d-layout.PNG)
 
+### Circuito Step-Up: REG113 + LT3042
 
+![](reg-sch.PNG)
+![](reg-2d-layout.PNG)
+![](reg-3d-layout.PNG)
+
+![](lt-sch.PNG)
+![](lt-2d-layout.PNG)
+![](lt-3d-layout.PNG)
 
