@@ -157,3 +157,8 @@ Componente usado foi conector SMA.
 ![](lt-2d-layout.PNG)
 ![](lt-3d-layout.PNG)
 
+### Filtro passivo: LTM455
+
+![](ltm455-sch.PNG)
+![](ltm455-2d-layout.PNG)
+![](ltm455-3d-layout.PNG)
