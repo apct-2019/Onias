@@ -60,7 +60,7 @@ Seu Serial number é: XM-GSGJ-01
 - LO: Si4464            - layout feito
 - XTAL: 26MHz           - layout feito
 - Chave RF: ADG904BCPZ  - layout feito
-- Filtro: LTM455/450    - 
+- Filtro: LTM455/450    - layout feito
 - Conector: SMA         - layout feito
 - Circuito Step-Up	- layout feitos
 
